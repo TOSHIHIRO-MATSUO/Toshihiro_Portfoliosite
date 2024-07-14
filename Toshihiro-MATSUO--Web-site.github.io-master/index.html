@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Toshihiro MATSUO</title>
+</head>
+
+<body>
+    <!-- Nav class 1: Visible on left side when screen is greater than 992px-->
+    <nav>
+        <ul class="side-nav fixed section table-of-contents">
+            <li class="logo">
+                <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+                    class="brand-logo grey-blue-text">
+                    <img src="./assets/img/headshot.jpg" class="circle img-responsive profile-pic" alt="avatar">
+                </a>
+            </li>
+
+            <li class="bold">
+                <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+                        class="mdi-social-person small"></i><span>About</span></a>
+            </li>
+            <li class="bold">
+                <a aria-label="Navigate to the Experience section" href="#experience"
+                    class="waves-effect waves-dark teal-text"><i
+                        class="mdi-action-trending-up small"></i><span>Experience</span></a>
+            </li>
+
+            <li class="bold">
+                <a aria-label="Navigate to the Projects section" href="#projects"
+                    class="waves-effect waves-dark teal-text"><i
+                        class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+            </li>
+
+            <li class="bold">
+                <a aria-label="Navigate to the Projects section" href="#blog"
+                    class="waves-effect waves-dark teal-text"><i
+                        class="mdi-av-my-library-books small"></i><span>Blog</span></a>
+            </li>
+
+            <li class="bold">
+                <a aria-label="Navigate to the Skills section" href="#skills"
+                    class="waves-effect waves-dark teal-text"><i
+                        class="mdi-action-assessment small"></i><span>Skills</span></a>
+            </li>
+
+            <li class="bold">
+                <a aria-label="Navigate to the Education section" href="#education"
+                    class="waves-effect waves-dark teal-text"><i
+                        class="mdi-social-school small"></i><span>Education</span></a>
+            </li>
+
+            <li class="bold">
+                <a aria-label="Navigate to the Contact section" href="#contact"
+                    class="waves-effect waves-dark teal-text"><i
+                        class="mdi-content-mail small"></i><span>Contact</span></a>
+            </li>
+
+            <li class="bold">
+                <a aria-label="Open Varad's resume in a new tab"
+                    href="assets/resume/resume.pdf" target="_blank"
+                    class="waves-effect waves-dark teal-text"><i
+                        class="mdi-file-folder-open small"></i><span>Resume</span></a>
+            </li>
+        </ul>
+    </nav>
+
+   
+    <nav class="hide-on-large only trigger z-depth-1">
+        <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+            class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        <div class="name-title">
+            <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Toshihiro
+                MATSUO</a><span class="black-text">Investment Advisor</span>
+        </div>
+    </nav>
+
+    
+    <nav class="hide-on-large only">
+        <ul id="slide-out" class="side-nav">
+            <li class="bold">
+                <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+                        class="mdi-social-person small"></i><span>About</span></a>
+            </li>
+            <li class="bold">
+                <a aria-label="Navigate to the Experience section" href="#experience"
+                    class="waves-effect waves-dark teal-text"><i
+                        class="mdi-action-trending-up small"></i><span>Experience</span></a>
+            </li>
+            <li class="bold">
+                <a aria-label="Navigate to the Projects section" href="#projects"
+                    class="waves-effect waves-dark teal-text"><i
+                        class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+            </li>
+            <li class="bold">
+                <a aria-label="Navigate to the Skills section" href="#skills"
+                    class="waves-effect waves-dark teal-text"><i
+                        class="mdi-action-assessment small"></i><span>Skills</span></a>
+            </li>
+
+            <li class="bold">
+                <a aria-label="Navigate to the Education section" href="#education"
+                    class="waves-effect waves-dark teal-text"><i
+                        class="mdi-social-school small"></i><span>Education</span></a>
+            </li>
+            <li class="bold">
+                <a aria-label="Navigate to the Contact section" href="#contact"
+                    class="waves-effect waves-dark teal-text"><i
+                        class="mdi-content-mail small"></i><span>Contact</span></a>
+            </li>
+            <li class="bold">
+                <a aria-label="Open Toshihiro's Resume in a new tab"
+                    href="assets/resume/resume.pdf"
+                    target="_blank" class="waves-effect waves-dark teal-text"><i
+                        class="mdi-file-folder-open small"></i><span>Resume</span></a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Content-->
+    <main>
+        <!-- First Section: Heading lines and image -->
+        <section id="intro" class="section scrollspy full-height">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="col-md-9">
+                    <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+                        <div class="caption">
+                            <h2>Hi, I'm <span class="teal">Toshihiro MATSUO.</span></h2>
+                            <h5 style="color:#fff"> <span class="typing" style="font-weight: 300; color:#004d40"></span>
+                            </h5>
+                            <h5>Self-driven, passionate data analyst with a curious mind who enjoys solving
+                                a complex and challenging real-world problems.</h5>
+                        </div>
+                        <div class="social">
+                            <a href="https://www.linkedin.com/in/toshihiro-matsuo-5863ab261/" target="_blank">
+                                <button class="icon-btn linkedin">
+                                    <i class="fa fa-linkedin"></i>
+                                </button>
+                            </a>
+                            <a href="https://github.com/TOSHIHIRO-MATSUO" target="_blank">
+                                <button class="icon-btn github">
+                                    <i class="fa fa-github"></i>
+                                </button>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#about" class="readme">Read More</a>
+                            <a href="#contact" class="contactme">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Second Section: About -->
+        <section id="about" class="section scrollspy">
+            <h3 class="page-title white-text teal gfont">About</h3>
+            <div class="container flow-text">
+                <p>
+                    Currently, I am completing dual Master's degrees in International Business / Business Analytics from Hult International Business School(Sep.2023 - Apr.2025), where I am augmenting my data analysis skills.
+                </p>
+                <p>
+                    As a graduate student, I have honed my skills in technologies such as Python, SQL, TensorFlow, PyTorch, and Scikit-Learn.
+                </p>
+                <p>
+                    Before Hult International Business School, I served as a data analyst at SIC, one of the beauty-related companies in Japan, after studying law at Chuo University, specializing in international law and conflict resolution.
+                </p>
+                <ul>
+                    <li><b>Languages:</b> Python, Javascript, HTML/CSS</li>
+                    <li><b>Databases:</b> MySQL</li>
+                    <li><b>Frameworks/Libraries:</b> Scikit-Learn, Tensorflow, Pytorch, XGBoost, LightGBM  </li>
+                    <li><b>Tools & Technologies:</b> AWS, Git, Visual Studio Code</li>
+                </ul>
+                </p>
+                <p>
+                   
+                </p>
+                <p>
+                    I hope to hear from you soon!
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Third Section: Experience -->
+        <section id="experience" class="section scrollspy">
+            <h3 class="page-title white-text teal gfont">Experience</h3>
+            <div class="container">
+
+                <!-- Latest Experience(intern) -->
+                <div class="card">
+                    <div class="card-content">
+                        <div class="row">
+                            <!-- <div class="col s12 m10"> -->
+                            <div class="col s12 m10">
+                                <p>
+                                    <span class="card-title"><a target="_blank"
+                                            class="teal-text hoverline">Reapra Japan</a></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="role brown-text text-darken-2">Entrepreneurial Support Intern</div>
+                        <ul>
+                            <li>Compiled   learnings   from   support   with   the   team   and   prepare   materials   and   assist   in  meeting  with potential entrepreneurs</li>               
+                        </ul>
+                    </div>
+                    <div class="card-action">
+                        <span>Jul.2024 - Present | Japan</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="row">
+                            <!-- <div class="col s12 m10"> -->
+                            <div class="col s12 m10">
+                                <p>
+                                    <span class="card-title"><a target="_blank"
+                                            class="teal-text hoverline">Freelance</a></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="role brown-text text-darken-2">Investment Advisor</div>
+                        <ul>
+                            <li>Prepared investment materials on U.S. equities for clients and date and time reports on U.S. equities.</li>
+                            <li>Improved my client's performance up to +300% by providing US Stocks and Crypto Currencies</li>               
+                        </ul>
+                    </div>
+                    <div class="card-action">
+                        <span>Jan.2024 - Jun.2024 | Japan</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <div class="row">
+                            <!-- <div class="col s12 m10"> -->
+                            <div class="col s12 m10">
+                                <p>
+                                    <span class="card-title"><a target="_blank"
+                                            class="teal-text hoverline">SIC.co</a></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="role brown-text text-darken-2">Data Analyst</div>
+                        <ul>
+                            <li>Interned as a data analyst at SIC.co. which runs a beauty salon, daycare center, and NPO.</li>
+                            <li>Improved   predictive   models   using   LightGBM   and   TensorFlow,   resulting   in   an   AUC-ROC   value increase from 0.837 to 0.927.</li>
+                            <li>Uncovered  a  previously  unrecognized  correlation  between  coupons  and  customer  return  rates,  leading to material strategy changes by the management</li>   
+                            <li>Reduced  customer  churn  by  2%  with  proposed  changes  to  a  coupon  strategy,  resulting  in  boosting  sales by $13,888 per store and increasing monthly sales by 9.8% YoY.</li>   
+                            <li>Developed   an   internal   website   using   React   in   collaboration  with  designers,  enabling  employees  to access current sales and revenue projections.</li>     
+                            <li>Built  an  image  classification  model  using  YOLOv8,  enabling   the  successful  capture  of  the  missing demographic information of customers.</li>    
+                            <li>Developed  a  Django  application  to  perform  customer  segmentation  including  filethe  uploading  of  files, data conversion, and visualization</li>
+                        </ul>
+                    </div>
+                    <div class="card-action">
+                        <span>Apr.2023 - Sep.2023 | Japan</span>
+                    </div>
+                </div>
+
+
+
+
+        </section>
+
+        <!-- Fourth Section: Projects -->
+        <section id="projects" class="section scrollspy">
+            <h3 class="page-title white-text teal gfont">Projects</h3>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col s12 m6 l4">
+                        <div class="card medium">
+                            <div class="card-image waves-effect waves-block waves-light">
+
+                                <img alt="music streaming app" src="./assets/img/projects/stock_trading.jpg"
+                                    style="height: 100%; width: 100%" class="activator" />
+
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator teal-text hoverline">Stock Trading App<i
+                                        class="mdi-navigation-more-vert right"></i></span>
+                                <p>
+                                    A stock search & virtual trading cross-platform app with Angular and Swift
+                                </p>
+                            </div>
+                            <!-- materialize css-->
+                            <div class="card-reveal">
+                                <span class="card-title grey-text"><small>Accomplishments</small><i
+                                        class="mdi-navigation-close right"></i></span>
+                                <ul>
+                                    <li><b>Tools:</b> Angular, Swift, NodeJS, Express, TypeScript, HTML/CSS, Bootstrap,
+                                        Google App Engine</li>
+                                    <li>Programmed a cross-platform app that retrieves and displays stock information
+                                        and enalbles virtual trading with Angular and Swift</li>
+                                    <li>Built the backend in NodeJS fetching real-time stock quotes, top news, and
+                                        social sentiments from the Finnhub API</li>
+                                    <li>Enhanced user experience with asynchronous data retrieval and time-series data
+                                        visualization using HighCharts</li>
+
+                                </ul>
+                                <div class="project-links">
+                                    <a aria-label="Visit " href="https://stock-trading-angular-2.wl.r.appspot.com/"
+                                        target="_blank" data-tooltip="View Online"
+                                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                                            class="fa fa-external-link"></i></a>
+                                    <a aria-label="Visit the GitHub repo for  project"
+                                        href="https://github.com/Tetsu87/Stock-Search-Angular" target="_blank"
+                                        data-position="top" data-tooltip="View Source"
+                                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                                            class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card medium">
+                            <div class="card-image waves-effect waves-block waves-light">
+
+                                <img alt="music streaming app" src="./assets/img/projects/financial-data.jpg"
+                                    style="height: 100%; width: 100%" class="activator" />
+
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator teal-text hoverline">Stock Pitch<i
+                                        class="mdi-navigation-more-vert right"></i></span>
+                                <p>
+                                    Stock research & Analysis for Investment
+                                </p>
+                            </div>
+                            <!-- materialize css-->
+                            <div class="card-reveal">
+                                <span class="card-title grey-text"><small>Accomplishments</small><i
+                                        class="mdi-navigation-close right"></i></span>
+                                <ul>
+                                    <li><b>Tools:</b> Valuation, DCF, Multiple, Financial Modeling</li>
+                                    <li>Programmed a cross-platform app that retrieves and displays stock information
+                                        and enalbles virtual trading with Angular and Swift</li>
+                                    <li></li>
+                                    <li></li>
+
+                                </ul>
+                                <div class="project-links">
+                                    <a aria-label="Visit " href="https://stock-trading-angular-2.wl.r.appspot.com/"
+                                        target="_blank" data-tooltip="View Online"
+                                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                                            class="fa fa-external-link"></i></a>
+                                    <a aria-label="Visit the GitHub repo for  project"
+                                        href="https://github.com/Tetsu87/Stock-Search-Angular" target="_blank"
+                                        data-position="top" data-tooltip="View Source"
+                                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                                            class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Blog-->
+         <section id="blog" class="section scrollspy">
+            <h3 class="page-title white-text teal gfont">Blog</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6 l4">
+                        <div class="card medium">
+                            <div class="card-image waves-effect waves-block waves-light">
+
+                                <img alt="music streaming app" src="./assets/img/projects/SMU_logo.jpg"
+                                    style="height: 100%; width: 100%" class="activator" />
+
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator teal-text hoverline">Singapore Management University<i
+                                        class="mdi-navigation-more-vert right"></i></span>
+                                <p>
+                                    Projects of Singapore Management University 
+                                </p>
+                            </div>
+                            <!-- materialize css-->
+                            <div class="card-reveal">
+                                <span class="card-title grey-text"><small>Accomplishments</small><i
+                                        class="mdi-navigation-close right"></i></span>
+                                <ul>
+                                    <li><b>Master of Quantitative Finance  (2024-2025):</b> Develop key skills such as Algorithmic Trading, Risk Management, Programming and Computational Finance, and Entrepreneurial Mindset</li>
+                            
+
+                                </ul>
+                                <div class="project-links">
+                                    <a aria-label="Visit the GitHub repo for  project"
+                                        href="github_url" target="_blank"
+                                        data-position="top" data-tooltip="View Source"
+                                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                                            class="fa fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fifth Section: Skills -->
+        <section id="skills" class="section scrollspy">
+            <h3 class="page-title white-text teal gfont">Technical Skills</h3>
+            <div class="container">
+                <!-- Languages and Databases -->
+                <div class="card">
+                    <div class="card-content">
+                        <h4 class="brown-text light">Languages</h4>
+                        <div class="row text-center">
+                            <div class="col s4 m2">
+                                <img alt="" src="./assets/img/technical_skills/languages/python_logo.jpg"
+                                    class="responsive-img" />Python
+                            </div>
+                            <div class="col s4 m2">
+                                <img alt="" src="./assets/img/technical_skills/languages/javascript.png"
+                                    class="responsive-img" />JavaScript
+                            </div>
+                            <div class="col s4 m2">
+                                <img alt="" src="./assets/img/technical_skills/languages/html5_logo.jpg"
+                                    class="responsive-img" />HTML5
+                            </div>
+                            <div class="col s4 m2">
+                                <img alt="" src="./assets/img/technical_skills/languages/css3_logo.jpg"
+                                    class="responsive-img" />CSS3
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <h4 class="brown-text light">Databases</h4>
+                        <div class="row text-center">
+                            <div class="col s4 m2">
+                                <img alt="" src="./assets/img/technical_skills/databases/mysql_logo.png"
+                                    class="responsive-img" />MySQL
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <h4 class="brown-text light">Libraries</h4>
+                        <div class="row text-center">
+                            <div class="col s4 m2">
+                                <img alt="" src="./assets/img/technical_skills/libraries/numpy_logo.jpg"
+                                    class="responsive-img" />NumPy
+                            </div>
+                            <div class="col s4 m2">
+                                <img alt="" src="./assets/img/technical_skills/libraries/pandas.png"
+                                    class="responsive-img" />Pandas
+                            </div>
+                            <div class="col s4 m2">
+                                <img alt="" src="./assets/img/technical_skills/libraries/matplotlib_logo.jpg"
+                                    class="responsive-img" />matplotlib
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks -->
+                <div class="card">
+                    <div class="card-content">
+                        <h4 class="brown-text light">Frameworks</h4>
+                        <div class="row text-center">
+                            <div class="col s4 m2">
+                                <img alt="" src="./assets/img/technical_skills/frameworks/sklearn.jpg"
+                                    class="responsive-img" />Scikit-Learn
+                            </div>
+                            <div class="col s4 m2">
+                                <img alt="" src="./assets/img/technical_skills/frameworks/pytorch.png"
+                                    class="responsive-img" />PyTorch
+                            </div>
+                            <div class="col s4 m2">
+                                <img alt="" src="./assets/img/technical_skills/frameworks/tensorflow.png"
+                                    class="responsive-img" />TensorFlow
+                            </div>
+                            <div class="col s4 m2">
+                                <img alt="" src="./assets/img/technical_skills/frameworks/react.png"
+                                    class="responsive-img" />React
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other -->
+                <div class="card">
+                    <div class="card-content">
+                        <h4 class="brown-text light">Others</h4>
+                        <div class="row text-center">
+                            <div class="col s4 m2">
+                                <img alt="" src="./assets/img/technical_skills/others/aws.png"
+                                    class="responsive-img" />AWS
+                            </div>
+                            <div class="col s4 m2">
+                                <img alt="" src="./assets/img/technical_skills/others/git.png"
+                                    class="responsive-img" />Git
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seventh Section: Education -->
+        <section id="education" class="section scrollspy">
+            <h3 class="page-title white-text teal gfont">Education</h3>
+            <div class="container">
+                <div class="card">
+                    <div class="card-content">
+                        <p>
+                            <span class="card-title"><a href="https://x.gd/KW7kd" target="_blank"
+                                    class="teal-text hoverline">Singapore Management University</a></span>
+                        </p>
+                        <p class="brown-text">Singapore</p>
+                        <p>
+                            <b>Degree: </b>Master of Quantitative Finance
+                        </p>
+
+                        <ul>
+                            <p>
+                                <b>Relevant Courseworks:</b>
+                            <ul>
+                                <li>Asset Pricing</li>
+                                <li>Derivatives</li>
+                                <li>Econometrics of Financial Market</li>
+                                <li>Fixed Income Securities</li>
+                                <li>Numerical Methods</li>
+                                <li>Programming and Computational Finance</li>
+                                <li>Quantitative Analysis of Financial Markets</li>
+                                <li>Risk Analysis</li>
+                                <li>Stochastic Modelling in Finance</li>
+                                <li>C++ for Financial Engineering</li>
+                                <li>Quantitative Trading Strategies</li>
+                            </ul>
+                            </p>
+
+                        </ul>
+                    </div>
+                    <div class="card-action">
+                        <span>Aug 2024 - Exp.Dec 2025</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+
+                        <p>
+                            <span class="card-title"><a href="https://00m.in/eaZbg" target="_blank"
+                                    class="teal-text hoverline">WorldQunat University</a></span>
+                        </p>
+                        <p class="brown-text">Online</p>
+                        <p>
+                            <b>Degree: Master of Financial Engineering</b>
+                        </p>
+                        <ul>
+                            <p>
+                                <b>Relevant Courseworks:</b>
+                            <ul>
+                                <li>Financial Market</li>
+                                <li>Data Analysis</li>
+                                <li>Risk Analysis</li>
+                                <li>Machine Learning</li>
+                                <li>The program was interrupted to enroll in SMU</li>
+                            </ul>
+                            </p>
+
+                        </ul>
+                    </div>
+                    <div class="card-action">
+                        <span>Oct 2023 - Jul 2024</span>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-content">
+                        <p>
+                            <span class="card-title"><a href="https://www.chuo-u.ac.jp/english/" target="_blank"
+                                    class="teal-text hoverline">Chuo University</a></span>
+                        </p>
+                        <p class="brown-text">Tokyo, Japan</p>
+                        <p>
+                            <b>Degree: </b>Bachelor of Laws in International Law and Business
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <span>2019 - 2023</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Eight Section: Contact -->
+        <section id="contact" class="section scrollspy full-height">
+            <h3 class="page-title white-text teal gfont">Contact</h3>
+            <div class="container">
+                <p>
+                    <a aria-label="Call Varad" data-position="top" data-tooltip="Call Varad"
+                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                            class="fa fa-phone"></i><a aria-label="Call Varad">+81-80-1774-7149</a></a>
+                </p>
+                <p>
+                    <a aria-label="Email Varad" href= "toshihiro.matsuo.career@gmail.com" target="_blank"
+                        data-position="top" data-tooltip="Email Toshihiro"
+                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                            class="fa fa-envelope"></i><a aria-label="Email Toshihiro"
+                            href= "toshihiro.matsuo.career@gmail.com" class="hoverline"
+                            target="_blank">toshihiro.matsuo.career@gmail.com</a>
+                </p>
+                <p>
+                    <a aria-label="View Toshihiro on GitHub" href="https://github.com/TOSHIHIRO-MATSUO" target="_blank"
+                        data-position="top" data-tooltip="View taro on GitHub"
+                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                            class="fa fa-github"></i><a aria-label="Varad on Github" href="https://github.com/TOSHIHIRO-MATSUO"
+                            class="hoverline" target="_blank">github.com/Toshihiro MATSUO</a></a>
+                </p>
+                <p>
+                    <a aria-label="View Toshihiro on LinkedIn" href="https://www.linkedin.com/in/toshihiro-matsuo-5863ab261/"
+                        target="_blank" data-position="top" data-tooltip="View Toshihiro on LinkedIn"
+                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                            class="fa fa-linkedin"></i><a aria-label="Toshihiro on LinkedIn"
+                            href="https://www.linkedin.com/in/toshihiro-matsuo-5863ab261/" class="hoverline"
+                            target="_blank"> Linkedin/Toshihiro MATSUO</a></a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- typed.js -->
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script type="text/javascript">
+        var typed = new Typed('.typing', {
+            strings: ["A Data Analyst", "A Graduate Student at Singapore Management Unviersity",  "An Investment Lover"],
+            loop: true,
+            typeSpeed: 80,
+            backSpeed: 40
+        });
+    </script>
+
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+
+    <script>
+        // Materialize - Initializers
+        $(document).ready(function () {
+            $(".scrollspy").scrollSpy()
+            // Initialize collapse button
+            $(".button-collapse").sideNav({
+                menuWidth: 190, // Default is 240
+                edge: "left", // Choose the horizontal origin
+                closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            })
+        })
+    </script>
+</body>
+
+</html>
